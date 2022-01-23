@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin-fashion</title>
+    <!--tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              penguin:'#FFFBF0',
+              price:'#FABE4C',
+              page:'#E5E5E5',
+            }
+          }
+        }
+      }
+    </script>
+    <!--font awasome-->
+    <script src="https://kit.fontawesome.com/c01a61ab63.js" crossorigin="anonymous"></script>
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body class=" bg-page">
+  <!--Header Section-->
+    <header class="bg-penguin">
+      <!--Navbar start -->
+      <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/icon/Group 33072.png" alt="" height=" 39.27px" width=" 291.11px">
+          </a>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contect Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+      <!--Navbar End-->
+      <section class="container sm:flex items-center justify-around pb-32 pt-12">
+        <div class="space-y-4 sm:p-0 p-4">
+          <h1 class=" text-2xl sm:text-5xl uppercase font-bold">
+            <span class="text-yellow-400 ">Be the Penguins</span>
+            <br>
+            <span>of Winter</span>
+          </h1>
+          <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.<br> Ex dignissimos optio nam <br> repudiandae suscipit aperiam <br> eius repellendus esse non nostrum?</p>
+          <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+        </div class="pt-8 sm:pt-0">
+        <div><img class="w-3/4 sm:w-full" src="images/image/model.png" alt=""></div>
+      </section>
+    </header>
+    <!--Header section end-->
+    <!--Main section start-->
+    <main class="container">
+      <!--women's jacket start-->
+      <section class="pb-24">
+        <h1 class="text-5xl font-bold">Women Jacket</h1>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+          <!--jacket 1-->
+          <div class="p-4 shadow-lg rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl"><img src="images/image/jacket-1.png" alt=""></div>
+            <h3 class="text-3xl font-semibold">Yellow Coat Jacket </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero rem nihil!</p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl text-bold text-price">$234</h2>
+              <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+          <!--jacket 2-->
+          <div class="p-4 shadow-lg rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl"><img src="images/image/jacket-2.png" alt=""></div>
+            <h3 class="text-3xl font-semibold">Yellow Coat Jacket </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero rem nihil!</p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl text-bold text-price">$199</h2>
+              <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+          <!--jacket 3-->
+          <div class="p-4 shadow-lg rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl"><img src="images/image/jacket-3.png" alt=""></div>
+            <h3 class="text-3xl font-semibold">Yellow Coat Jacket </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero rem nihil!</p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl text-bold text-price">$249</h2>
+              <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--women"s jacket end-->
+      <!--men's jacket start-->
+      <section class="pb-24">
+        <h1 class="text-5xl font-bold">men Jacket</h1>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+          <!--jacket 1-->
+          <div class="p-4 shadow-lg rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl"><img src="images/image/jacket-4.png" alt=""></div>
+            <h3 class="text-3xl font-semibold">Snowboard Jacket Mens</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero rem nihil!</p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl text-bold text-price">$149</h2>
+              <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+          <!--jacket 2-->
+          <div class="p-4 shadow-lg rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl"><img src="images/image/jacket-5.png" alt=""></div>
+            <h3 class="text-3xl font-semibold">Man Leather Jackets </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero rem nihil!</p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl text-bold text-price">$179</h2>
+              <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+          <!--jacket 3-->
+          <div class="p-4 shadow-lg rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl"><img src="images/image/jacket-6.png" alt=""></div>
+            <h3 class="text-3xl font-semibold">Man Casual Jackets</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero rem nihil!</p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl text-bold text-price">$199</h2>
+              <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!--men's jacket end-->
+      <!--Our Benifits-->
+      <section class="container">
+        <div class="grid grid-cols-2 gap-7">
+          <div class="rounded-lg bg-slate-200 flex p-6">
+            <img class="w-20 h-20" src="images/icon/image 12.png" alt="">
+            <div class="px-1">
+              <h4 class="text-2xl">Find the Perfect Fit</h4>
+              <p>Everybody is different, which is why we<br>
+                offer styles for every body.</p>
+            </div>
+          </div>
+          <div class=" row-span-3">
+            <img src="images/image/shopping.png" alt="">
+          </div>
+          <div class="rounded-lg bg-slate-200 flex p-6">
+            <img class="w-20 h-20" src="images/icon/image 13.png" alt="">
+            <div class="px-1">
+              <h4 class="text-2xl">Free Exchanges</h4>
+              <p>One of the many reasons you can shop<br>
+                with peace of mind.</p>
+            </div>
+          </div>
+          <div class="rounded-lg bg-slate-200 flex p-6">
+            <img class="w-20 h-20" src="images/icon/image 14.png" alt="">
+            <div class="px-1">
+              <h4 class="text-2xl">Contact Our Seller</h4>
+              <p>They are here to help you. That's quite<br> 
+                literally what we pay them for.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+    <!--main sectoion end-->
+    <!--Footer section start-->
+    <Footer class="bg-penguin ">
+        <div class="text-center">
+          <h2 class="text-2xl">Penguin-fashion</h2>
+          <p>copyright <i class="far fa-copyright"></i>Penguin-fashion</p>
+          <p>All rights reserved</p>
+          <p><i class="fab fa-instagram"></i> <i class="fab fa-linkedin-in"></i> <i class="fab fa-twitter"></i> <i class="fab fa-youtube"></i></p>
+        </div>
+    </Footer>
+    <!--Footer section end-->
+    <!--Bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
